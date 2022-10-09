@@ -1,0 +1,77 @@
+/* import a web font */
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Fredoka+One&display=swap');
+
+.a, .b, .c {
+  border:1px solid black;
+}
+
+body {
+  background-color: bisque;
+  color: black;
+  margin:20px 0;
+  font-weight: 'Baloo', cursive;
+  text-align: center;
+  font-size: 50px;
+}
+
+h1, h2, h3 {
+  margin: 0;
+}
+
+
+
+/*********************************
+* Header
+*********************************/
+/*********************************
+ * Header
+ *********************************/
+ header {
+  margin: auto;
+  justify-content: space-between;
+ text-align: center;
+ }
+
+ 
+
+    
+
+
+
+/*********************************
+* Container
+*********************************/
+/*********************************
+ * Container
+ *********************************/
+ .container {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  justify-content: space-between;
+}
+
+/*********************************
+ * Aside/Nav
+ *********************************/ 
+ aside {
+  flex-basis: 15%;
+  min-width: 15%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+
+
+
+/* Main
+*********************************/
+
+/*********************************
+ * Main
+ *********************************/
+ main {
+  flex-basis: 85%;
+  width: 85%;
+ }

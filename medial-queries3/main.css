@@ -1,0 +1,51 @@
+.a, .b, .c, .d, .e, .f, .g, .h {
+
+  border: 1px solid black;
+}
+
+
+body {
+  background: peachpuff;
+  color: black;
+  margin:20px 0;
+  font-weight: 'Baloo', cursive;
+  text-align: center;
+  font-size: 50px;
+}
+
+header{
+  margin:auto;
+  justify-content: space-between;
+  text-align: center;
+  
+
+}
+
+h1, h2, h3 {
+  margin: 0;
+}
+
+.container {
+  width: 90%;
+  margin:auto;
+  justify-content: space-between;
+  
+}
+
+#pt1{
+  display:inline-flex;
+}
+
+#pt2 {
+  display:flex;
+  position: relative; left: 47%;
+}
+
+aside {
+  flex-basis: 15%;
+  min-width: 15%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+ 
+}
